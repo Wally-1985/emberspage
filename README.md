@@ -55,7 +55,14 @@ dev/staging environment, and only push to the live Binary Lane server when
 you're happy with it.
 
 **1. GitHub**
-- Push this repo to GitHub (`main` branch = production-ready code).
+- This repo is already connected to `origin` →
+  [Wally-1985/emberspage](https://github.com/Wally-1985/emberspage).
+  Push your local `main` branch up with:
+  ```bash
+  git push -u origin main
+  ```
+  (You'll be prompted to authenticate with GitHub — a personal access token
+  or the GitHub CLI/credential manager, whichever you normally use.)
 - Optionally create a `dev` branch for work in progress.
 
 **2. Dev/staging preview** — pick one:
