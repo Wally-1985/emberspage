@@ -412,7 +412,7 @@ section { padding: clamp(3.5rem, 8vw, 6.5rem) 0; }
   justify-content: center;
 }
 .about-art::after {
-  content: "Photo of the van\A coming soon";
+  content: "Photo of the stall\A coming soon";
   white-space: pre;
   font-family: var(--font-mono);
   font-size: 0.72rem;

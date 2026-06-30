@@ -1,6 +1,6 @@
 # Embers and Ash — Woodfired Pizza
 
-Marketing site for Embers and Ash, a Brisbane-based mobile woodfired pizza van
+Marketing site for Embers and Ash, a Brisbane-based mobile woodfired pizza stall
 for weddings, festivals, corporate events and private parties.
 
 Plain HTML/CSS/JS — no build step, no framework. Open `index.html` in a
@@ -32,7 +32,7 @@ The "About", "Events" and "Gallery" sections currently use placeholder
 texture blocks instead of photos (no images were supplied yet). To swap them
 in:
 
-1. Drop image files into `assets/images/` (e.g. `van.jpg`, `wedding-1.jpg`).
+1. Drop image files into `assets/images/` (e.g. `stall.jpg`, `wedding-1.jpg`).
 2. In `index.html`, replace the relevant placeholder `<div class="about-art">`
    or `<div class="g-item">` with an `<img>` tag pointing at your file.
 3. Compress images first (e.g. with [squoosh.app](https://squoosh.app)) —
@@ -42,7 +42,7 @@ in:
 
 The booking form on the page validates and shows a confirmation, but has no
 backend wired up yet — out of the box it falls back to opening a pre-filled
-email to `hello@embersandash.com.au`. To make it submit silently instead,
+email to `admin@embersandash.com.au`. To make it submit silently instead,
 open `js/main.js` and follow the instructions in the comment above
 `FORM_ENDPOINT`. The simplest no-backend options are form services like
 Formspree or Web3Forms — sign up, paste the endpoint URL into

@@ -131,7 +131,7 @@ function initInquiryForm() {
           throw new Error('Request failed');
         }
       } catch (err) {
-        status.textContent = "Something went wrong sending that — please email hello@embersandash.com.au directly.";
+        status.textContent = "Something went wrong sending that — please email admin@embersandash.com.au directly.";
         status.setAttribute('data-state', 'error');
       }
       return;
@@ -144,7 +144,7 @@ function initInquiryForm() {
       `Event type: ${data.eventType}\nDate: ${data.eventDate}\nGuests: ${data.guests || '-'}\n` +
       `Location: ${data.location || '-'}\n\nMessage:\n${data.message || '-'}`
     );
-    window.location.href = `mailto:hello@embersandash.com.au?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:admin@embersandash.com.au?subject=${subject}&body=${body}`;
     status.textContent = "Opening your email client to send this through…";
     status.setAttribute('data-state', 'success');
   });
